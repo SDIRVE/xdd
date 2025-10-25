@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portal de Enlaces</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0a0f1a, #0c223d);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+      width: 90%;
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #00d4ff;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px #00d4ff;
+    }
+
+    .btn {
+      display: block;
+      background: linear-gradient(90deg, #0078ff, #00e0ff);
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 200, 255, 0.2);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 255, 255, 0.5);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .edit-hint {
+      color: #7ae9ff;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Mi Portal Web</h1>
+
+    <!-- 🔹 Aquí colocas tus links -->
+    <a href="TU_LINK_AQUI_1.html" class="btn">Página o Sitio 1</a>
+    <a href="TU_LINK_AQUI_2.html" class="btn">Página o Sitio 2</a>
+    <a href="TU_LINK_AQUI_3.html" class="btn">Página o Sitio 3</a>
+    <a href="TU_LINK_AQUI_4.html" class="btn">Página o Sitio 4</a>
+    <a href="TU_LINK_AQUI_5.html" class="btn">Página o Sitio 5</a>
+
+    <div class="edit-hint">
+      ✏️ Edita este archivo y cambia <b>TU_LINK_AQUI</b> por tus enlaces reales.
+    </div>
+
+    <footer>© 2025 Emerson - Proyecto Web</footer>
+  </div>
+</body>
+</html>
